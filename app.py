@@ -87,10 +87,10 @@ st.title("🎧 Conversión de Texto a Audio")
 
 # Imagen
 try:
-    image = Image.open('gato_raton.png')
+    image = Image.open('ortega.jpg')
     st.image(image, width=350, caption="Fábula en imagen")
 except FileNotFoundError:
-    st.warning("⚠️ No se encontró la imagen `gato_raton.png`. Asegúrate de subirla al mismo directorio.")
+    st.warning("⚠️ No se encontró la imagen `ortega.jpg`. Asegúrate de subirla al mismo directorio.")
 
 with st.sidebar:
     st.subheader("⚙️ Opciones")
@@ -102,7 +102,7 @@ try:
 except:
     pass
 
-st.subheader("📜 Una pequeña Fábula")
+st.subheader("⚜️")
 st.write(
     '“Yo soy yo y mi circunstancia, y si no la salvo a ella no me salvo yo. '
     'El hombre no es una sustancia fija, sino un ser que se hace a sí mismo en relación '
