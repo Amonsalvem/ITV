@@ -88,7 +88,7 @@ st.title("🎧 Conversión de Texto a Audio")
 # Imagen
 try:
     image = Image.open('ortega.jpg')
-    st.image(image, width=350, caption="Fábula en imagen")
+    st.image(image, width=350, caption="Ortega y Gasset")
 except FileNotFoundError:
     st.warning("⚠️ No se encontró la imagen `ortega.jpg`. Asegúrate de subirla al mismo directorio.")
 
