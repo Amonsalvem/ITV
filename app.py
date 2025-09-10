@@ -7,7 +7,7 @@ from PIL import Image
 import base64
 
 # =========================
-# ESTILOS CSS (tema oscuro elegante)
+# ESTILOS CSS (tema oscuro elegante corregido)
 # =========================
 st.markdown(
     """
@@ -26,6 +26,12 @@ st.markdown(
     /* Textos */
     .stMarkdown, .stText, .stSubheader, .stHeader, .stTitle {
         color: #FFFFFF !important;
+    }
+
+    /* Etiquetas de inputs */
+    label, .stTextInput label, .stSelectbox label, .stTextArea label {
+        color: #FFFFFF !important;
+        font-weight: bold;
     }
 
     /* Caja de texto */
